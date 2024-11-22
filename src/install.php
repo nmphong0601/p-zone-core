@@ -201,7 +201,7 @@ if (request()->method() == 'POST' && request()->ajax()) {
 
     case 'step3':
         try {
-            rename(base_path() . '/public/install.php', base_path() . '/public/install.scart');
+            rename(base_path() . '/public/install.php', base_path() . '/public/install.pzone');
         } catch (\Throwable $e) {
             echo json_encode([
                 'error' => '1',
