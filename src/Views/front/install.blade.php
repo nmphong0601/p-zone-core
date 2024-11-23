@@ -39,23 +39,23 @@
         <div class="col-md-1"></div>
     <div class="col-md-5 col-sm-8">
         <div style="text-align: center;display: inline;line-height: 80px;">
-            <img alt="Logo-Scart" title="Logo-Scart" src="images/scart-min.png" style="width: 150px; padding: 5px;">
+            <img alt="Logo-PZone" title="Logo-PZone" src="images/pzone-min.png" style="width: 150px; padding: 5px;">
         </div>
 
         <div class="btn-group">
         <button type="button" class="btn btn-default dropdown-toggle usa" data-toggle="dropdown">
             @if ($path_lang == '?lang=vi')
-            <img src="https://p-zone.nmp-tech.com/data/language/flag_vn.png" style="height: 25px;">
+            <img src="data/language/flag_vn.png" style="height: 25px;">
             @else
-            <img src="https://p-zone.nmp-tech.com/data/language/flag_uk.png" style="height: 25px;">
+            <img src="data/language/flag_uk.png" style="height: 25px;">
             @endif
 
 
         <span class="caret"></span>
       </button>
           <ul class="dropdown-menu" >
-              <li><a href="install.php"><img src="https://p-zone.nmp-tech.com/data/language/flag_uk.png" style="height: 25px;"></a></li>
-              <li><a href="install.php?lang=vi"><img src="https://p-zone.nmp-tech.com/data/language/flag_vn.png" style="height: 25px;"></a></li>
+              <li><a href="install.php"><img src="data/language/flag_uk.png" style="height: 25px;"></a></li>
+              <li><a href="install.php?lang=vi"><img src="data/language/flag_vn.png" style="height: 25px;"></a></li>
           </ul>
         </div>
         <div style="clear: both;display: block;">
