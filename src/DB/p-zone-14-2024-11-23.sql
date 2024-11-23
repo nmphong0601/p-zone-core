@@ -247,11 +247,11 @@ INSERT INTO `pz_admin_config` (`id`, `group`, `code`, `key`, `value`, `security`
 	(131, '', 'captcha_config', 'captcha_mode', '0', 0, '1', 20, 'admin.captcha.captcha_mode', NULL, NULL),
 	(132, '', 'captcha_config', 'captcha_page', '[]', 0, '1', 10, 'captcha.captcha_page', NULL, NULL),
 	(133, '', 'captcha_config', 'captcha_method', '', 0, '1', 0, 'admin.captcha.captcha_method', NULL, NULL),
-	(134, '', 'admin_custom_config', 'facebook_url', 'https://www.facebook.com/PZone.Ecommerce/', 0, '1', 0, 'admin.admin_custom_config.facebook_url', NULL, NULL),
-	(135, '', 'admin_custom_config', 'fanpage_url', 'https://www.facebook.com/groups/scart.opensource', 0, '1', 0, 'admin.admin_custom_config.fanpage_url', NULL, NULL),
-	(136, '', 'admin_custom_config', 'twitter_url', 'https://twitter.com/ecommercescart', 0, '1', 0, 'admin.admin_custom_config.twitter_url', NULL, NULL),
+	(134, '', 'admin_custom_config', 'facebook_url', 'https://www.facebook.com/', 0, '1', 0, 'admin.admin_custom_config.facebook_url', NULL, NULL),
+	(135, '', 'admin_custom_config', 'fanpage_url', 'https://www.facebook.com/', 0, '1', 0, 'admin.admin_custom_config.fanpage_url', NULL, NULL),
+	(136, '', 'admin_custom_config', 'twitter_url', 'https://twitter.com/', 0, '1', 0, 'admin.admin_custom_config.twitter_url', NULL, NULL),
 	(137, '', 'admin_custom_config', 'instagram_url', '#', 0, '1', 0, 'admin.admin_custom_config.instagram_url', NULL, NULL),
-	(138, '', 'admin_custom_config', 'youtube_url', 'https://www.youtube.com/channel/UCR8kitefby3N6KvvawQVqdg/videos', 0, '1', 0, 'admin.admin_custom_config.youtube_url', NULL, NULL),
+	(138, '', 'admin_custom_config', 'youtube_url', 'https://www.youtube.com/', 0, '1', 0, 'admin.admin_custom_config.youtube_url', NULL, NULL),
 	(139, '', 'config_layout', 'link_account', '1', 0, '1', 0, 'admin.config_layout.link_account', NULL, NULL),
 	(140, '', 'config_layout', 'link_language', '1', 0, '1', 0, 'admin.config_layout.link_language', NULL, NULL),
 	(141, '', 'config_layout', 'link_currency', '1', 0, '1', 0, 'admin.config_layout.link_currency', NULL, NULL),
@@ -557,7 +557,7 @@ CREATE TABLE IF NOT EXISTS `pz_admin_store` (
 DELETE FROM `pz_admin_store`;
 /*!40000 ALTER TABLE `pz_admin_store` DISABLE KEYS */;
 INSERT INTO `pz_admin_store` (`id`, `logo`, `icon`, `og_image`, `phone`, `long_phone`, `email`, `time_active`, `address`, `office`, `warehouse`, `template`, `domain`, `partner`, `code`, `language`, `timezone`, `currency`, `status`, `active`, `created_at`, `updated_at`) VALUES
-	('1', 'data/logo/scart-mid.png', NULL, 'images/org.jpg', '0123456789', 'Support: 0987654321', 'admin@example.com', '', '123st - abc - xyz', NULL, NULL, 'p-zone-light', 'p-zone.local', '0', 'p-zone', 'vi', '', 'USD', 1, 1, NULL, NULL);
+	('1', 'data/logo/pzone-mid.png', NULL, 'images/org.jpg', '0123456789', 'Support: 0987654321', 'admin@example.com', '', '123st - abc - xyz', NULL, NULL, 'p-zone-light', 'p-zone.local', '0', 'p-zone', 'vi', '', 'USD', 1, 1, NULL, NULL);
 /*!40000 ALTER TABLE `pz_admin_store` ENABLE KEYS */;
 
 -- Dumping structure for table p-zone.pz_admin_store_description
