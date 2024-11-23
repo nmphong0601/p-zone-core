@@ -364,7 +364,7 @@ trait DataDefaultSeederTrait
 
     public function dataAdminStore($email, $language, $domain) {
         $dataAdminStore = [
-            ['id' => 1,'logo' => 'data/logo/scart-mid.png','template' => 'p-zone-light','phone' => '0123456789','long_phone' => 'Support: 0987654321','email' => $email,'time_active' =>'','address' => '123st - abc - xyz','language' => $language,'currency' => 'USD','code' => 'p-zone','domain' => $domain]
+            ['id' => 1,'logo' => 'data/logo/pzone-mid.png','template' => 'p-zone-light','phone' => '0123456789','long_phone' => 'Support: 0987654321','email' => $email,'time_active' =>'','address' => '123st - abc - xyz','language' => $language,'currency' => 'USD','code' => 'p-zone','domain' => $domain]
         ];
         return $dataAdminStore;
     }
