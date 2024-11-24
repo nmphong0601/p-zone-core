@@ -1,10 +1,10 @@
 {
     "name": "your-template-name",
-    "image": "images/scart-min.png",
+    "image": "images/pzone-min.png",
     "auth": "P-Zone",
     "email": "support@p-zone.nmp-tech.com",
     "website": "https://P-Zone.Org",
     "configKey": "your-template-name",
     "version": "1.0",
-    "scartVersion": "7.1|7.2"
+    "pzoneVersion": "7.1|7.2"
 }

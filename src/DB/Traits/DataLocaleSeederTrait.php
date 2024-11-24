@@ -1748,10 +1748,10 @@ trait DataLocaleSeederTrait
             ['code' => 'admin.api_connection.edit','text' => 'Chỉnh sửa connection','position' => 'admin.api_connection','location' => 'vi'],
             ['code' => 'admin.api_connection.edit','text' => 'Edit connection','position' => 'admin.api_connection','location' => 'en'],
             ['code' => 'admin.api_connection.api_connection_required_help','text' => '<ul><li>Nếu không sử dụng API, hãy hãy chuyển sang trạng thái "OFF API"</li><li>Nếu không sử dụng apikey và apiconnection, hãy chuyển sang trạng thái "OFF CONNECTION"</li></ul>
-                <a href="https://p-zone.nmp-tech.com/vi/docs/developer/about-api-scart.html" target="_new"><i class="fa fa-info-circle" aria-hidden="true">Xem chi tiết ở đây</i></a>
+                <a href="https://p-zone.nmp-tech.com/vi/docs/developer/about-api-pzone.html" target="_new"><i class="fa fa-info-circle" aria-hidden="true">Xem chi tiết ở đây</i></a>
                 ','position' => 'admin.api_connection','location' => 'vi'],
             ['code' => 'admin.api_connection.api_connection_required_help','text' => '<ul><li>If not using API, please switch to "OFF API" state</li><li>If apikey and apiconnection are not used, switch to "OFF CONNECTION" state</li></ul>
-                <a href="https://p-zone.nmp-tech.com/docs/developer/about-api-scart.html" target="_new"><i class="fa fa-info-circle" aria-hidden="true"></i>See full infomation</a>
+                <a href="https://p-zone.nmp-tech.com/docs/developer/about-api-pzone.html" target="_new"><i class="fa fa-info-circle" aria-hidden="true"></i>See full infomation</a>
                 ','position' => 'admin.api_connection','location' => 'en'],
             ['code' => 'admin.result_item','text' => 'Showing <b>:item_from</b>-<b>:item_to</b> of <b>:total</b> results</b>','position' => 'admin','location' => 'en'],
             ['code' => 'admin.result_item','text' => 'Hiển thị <b>:item_from</b>-<b>:item_to</b> của <b>:total</b> kết quả</b>','position' => 'admin','location' => 'vi'],

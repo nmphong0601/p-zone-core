@@ -181,10 +181,10 @@ class AdminTemplateController extends RootAdminController
 
                     //Check compatibility 
                     $config = json_decode(file_get_contents($checkConfig[0]), true);
-                    $scartVersion = $config['scartVersion'] ?? '';
-                    if (!pz_plugin_compatibility_check($scartVersion)) {
+                    $pzoneVersion = $config['pzoneVersion'] ?? '';
+                    if (!pz_plugin_compatibility_check($pzoneVersion)) {
                         File::deleteDirectory(storage_path('tmp/'.$pathTmp));
-                        return response()->json(['error' => 1, 'msg' => pz_language_render('admin.plugin.not_compatible', ['version' => $scartVersion, 'pz_version' => config('p-zone.core')])]);
+                        return response()->json(['error' => 1, 'msg' => pz_language_render('admin.plugin.not_compatible', ['version' => $pzoneVersion, 'pz_version' => config('p-zone.core')])]);
                     }
 
                     $configKey = $config['configKey'] ?? '';

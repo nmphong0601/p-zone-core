@@ -78,7 +78,7 @@
               @else
                 @foreach ($arrTemplateLibrary as  $template)
   @php
-  $scVersion = explode(',', $template['scart_version']);
+  $scVersion = explode(',', $template['pzone_version']);
   $scRenderVersion = implode(' ',array_map(
   function($version){
   return '<span title="PZone version '.$version.'" class="badge badge-primary">'.$version.'</span>';

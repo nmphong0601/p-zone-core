@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="icon" href="{{ pz_file('images/icon.png') }}" type="image/png" sizes="16x16">
+  <link rel="icon" href="{{ pz_file('images/pzone-icon.png') }}" type="image/png" sizes="16x16">
   <title>{{pz_config_admin('ADMIN_TITLE')}} | {{ $title??'' }}</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">

@@ -19,7 +19,7 @@ class AppConfig extends ConfigDefault
     	$this->configGroup = $config['configGroup'];
     	$this->configCode = $config['configCode'];
         $this->configKey = $config['configKey'];
-        $this->scartVersion = $config['scartVersion'];
+        $this->pzoneVersion = $config['pzoneVersion'];
         //Path
         $this->pathPlugin = $this->configGroup . '/' . $this->configCode . '/' . $this->configKey;
         //Language

@@ -75,7 +75,7 @@
                   @else
                     @foreach ($arrPluginLibrary as  $plugin)
   @php
-    $scVersion = explode(',', $plugin['scart_version']);
+    $scVersion = explode(',', $plugin['pzone_version']);
     $scRenderVersion = implode(' ',array_map(
       function($version){
       return '<span title="PZone version '.$version.'" class="badge badge-primary">'.$version.'</span>';

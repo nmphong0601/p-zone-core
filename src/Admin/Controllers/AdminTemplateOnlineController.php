@@ -48,7 +48,7 @@ class AdminTemplateOnlineController extends RootAdminController
                     'path' => $data['path'] ?? '',
                     'file' => $data['file'] ?? '',
                     'version' => $data['version'] ?? '',
-                    'scart_version' => $data['scart_version'] ?? '',
+                    'pzone_version' => $data['pzone_version'] ?? '',
                     'price' => $data['price'] ?? 0,
                     'price_final' => $data['price_final'] ?? 0,
                     'price_promotion' => $data['price_promotion'] ?? 0,
@@ -135,10 +135,10 @@ class AdminTemplateOnlineController extends RootAdminController
 
             //Check compatibility 
             $config = json_decode(file_get_contents($checkConfig[0]), true);
-            $scartVersion = $config['scartVersion'] ?? '';
-            if (!pz_plugin_compatibility_check($scartVersion)) {
+            $pzoneVersion = $config['pzoneVersion'] ?? '';
+            if (!pz_plugin_compatibility_check($pzoneVersion)) {
                 File::deleteDirectory(storage_path('tmp/'.$pathTmp));
-                $response = ['error' => 1, 'msg' => pz_language_render('admin.plugin.not_compatible', ['version' => $scartVersion, 'pz_version' => config('p-zone.core')])];
+                $response = ['error' => 1, 'msg' => pz_language_render('admin.plugin.not_compatible', ['version' => $pzoneVersion, 'pz_version' => config('p-zone.core')])];
             } else {
                 $folderName = explode('/config.json', $checkConfig[0]);
                 $folderName = explode('/', $folderName[0]);
